@@ -1,0 +1,47 @@
+{
+    "type": "List",
+    "src": {
+        "items": [
+            {
+                "title": "Corn",
+                "img": "https://successful-farming.s3.amazonaws.com/Visuals/Google/SF_APL_02_CommodityMenu/Assets/corn.png",
+                "key": "Corn"
+            },
+            {
+                "title": "Feeder Cattle",
+                "img": "https://successful-farming.s3.amazonaws.com/Visuals/Google/SF_APL_02_CommodityMenu/Assets/feederCattle.png",
+                "key": "Feeder Cattle"
+            },
+            {
+                "title": "Lean Hogs",
+                "img": "https://successful-farming.s3.amazonaws.com/Visuals/Google/SF_APL_02_CommodityMenu/Assets/leanHogs.png",
+                "key": "Lean Hogs"
+            },
+            {
+                "title": "Live Cattle",
+                "img": "https://successful-farming.s3.amazonaws.com/Visuals/Google/SF_APL_02_CommodityMenu/Assets/liveCattle.png",
+                "key": "Live Cattle"
+            },
+            {
+                "title": "Soybean Meal",
+                "img": "https://successful-farming.s3.amazonaws.com/Visuals/Google/SF_APL_02_CommodityMenu/Assets/soybeanMeal.png",
+                "key": "Soybean Meal"
+            },
+            {
+                "title": "Soybean Oil",
+                "img": "https://successful-farming.s3.amazonaws.com/Visuals/Google/SF_APL_02_CommodityMenu/Assets/soybeanOil.png",
+                "key": "Soybean Oil"
+            },
+            {
+                "title": "Soybean",
+                "img": "https://successful-farming.s3.amazonaws.com/Visuals/Google/SF_APL_02_CommodityMenu/Assets/soybeans.png",
+                "key": "Soybean"
+            },
+            {
+                "title": "Wheat",
+                "img": "https://successful-farming.s3.amazonaws.com/Visuals/Google/SF_APL_02_CommodityMenu/Assets/wheat.png",
+                "key": "Wheat"
+            }
+        ]
+    }
+}

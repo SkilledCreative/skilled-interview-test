@@ -1,0 +1,70 @@
+{
+    "document": {
+        "type": "APL",
+        "version": "1.1",
+        "settings": {
+            "-documentName": "sfgeneric",
+            "-documentRevision": "0.10"
+        },
+        "theme": "dark",
+        "import": [
+            {
+                "name": "alexa-layouts",
+                "version": "1.1.0"
+            },
+            {
+                "name": "alexa-viewport-profiles",
+                "version": "1.1.0"
+            },
+            {
+                "name": "alexa-styles",
+                "version": "1.1.0"
+            }
+        ],
+        "resources": [],
+        "styles": {},
+        "onMount": [],
+        "graphics": {},
+        "commands": {},
+        "layouts": {},
+        "mainTemplate": {
+            "parameters": [
+                "payload"
+            ],
+            "items": [
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "source": "${payload.sfgeneric.backgroundImage}",
+                            "position": "absolute",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "scale": "best-fill"
+                        },
+                        {
+                            "when": "${@viewportProfile == @hubRoundSmall}",
+                            "type": "Image",
+                            "source": "${payload.sfgeneric.spotBackgroundImage}",
+                            "position": "absolute",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "scale": "best-fill"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "datasources": {
+        "sfgeneric": {
+            "type": "object",
+            "backgroundImage": "https://successful-farming.s3.amazonaws.com/Visuals/SF_APL_00_Generic_Home/LargeHub.jpg",
+            "spotBackgroundImage": "https://successful-farming.s3.amazonaws.com/Visuals/SF_APL_00_Generic_Home/SmallHub.jpg"
+        },
+        "data": {
+            "title": ""
+        }
+    }
+}
