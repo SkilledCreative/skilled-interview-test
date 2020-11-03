@@ -34,7 +34,7 @@ module.exports = {
              pathToFile: '../db/db.json',
          },
          DynamoDb: {
-            tableName: '<key>',
+            tableName: 'skilled_table',
         },
      },
      cms: {

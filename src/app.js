@@ -14,7 +14,6 @@ const { AirtableCMS } = require('jovo-cms-airtable');
 //const { DashbotAlexa, DashbotGoogleAssistant, DashbotUniversal } = require('jovo-analytics-dashbot');
 
 const responses = require('./util/cms');
-const { NumberContext } = require('twilio/lib/rest/pricing/v1/voice/number');
 
 const app = new App();
 
@@ -23,7 +22,7 @@ app.use(
     new GoogleAssistant(),
     new JovoDebugger(),
     new FileDb(),
-    //new DynamoDb(),
+    new DynamoDb(),
     new AirtableCMS(),
     //new DashbotAlexa(),
     //new DashbotGoogleAssistant(),
