@@ -1,0 +1,9 @@
+{
+    "type": "SuggestionChips",
+    "src": {
+        "suggestions": [
+            "Yes",
+            "No"
+        ]
+    }
+}
